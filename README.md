@@ -63,14 +63,14 @@ of the Gazebo GUI.
 
 ## Create trajectory of models. 
 
-### Define waypoints of the trajectory for one or mode models.
+### Define waypoints of the trajectory for one or more models.
 
 1. Click on a model to select it.
 
 2. Click on the left button "Capture pose of the selected model" in the Capture Samples
 plugin panel.
 
-3. Click on the Translate Mode or Rotate Mode buttons in the Transform Control plugin panel
+3. Click on the Translate Mode or Rotate Mode buttons in the Transform Control plugin panel.
 Move the model along arrows or arcs.
 
 Repeat the steps 1-3 as many times as necessary.
@@ -87,6 +87,7 @@ $SCENE_CAPTURE_PATH/SceneCaptureParams.xml.
 
 ## Create images of the scenes with moving models. 
 
+Restart the Gazebo GUI after generating the trajectory.
 Click "Run the simulation" button in the World control panel.
 The trajectories are replayed. The screenshot images are captured automatically
 as the models move along the trajectories.
