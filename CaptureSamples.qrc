@@ -1,0 +1,8 @@
+<!DOCTYPE RCC><RCC version="1.0">
+<qresource prefix="CaptureSamples/">
+  <file>CaptureSamples.qml</file>
+  <file>capturesamples.png</file>
+  <file>folder.png</file>  
+  <file>generateparamsfile.png</file>  
+</qresource>
+</RCC>
